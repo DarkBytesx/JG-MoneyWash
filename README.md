@@ -1,3 +1,5 @@
+https://cdn.discordapp.com/attachments/985595018800681000/1096330133566132256/JG-moneywash_thumbnai.jpg
+
 # JG-MoneyWash
 
 A script for ESX Framework for money washing using ox library UI
