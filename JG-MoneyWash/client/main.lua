@@ -80,7 +80,7 @@ local function getinput()
     if alert == 'confirm' then
         TriggerServerEvent('JG-checkblackmoney',percetageinput,originalinput,time,function ()
         end)
-        RegisterNetEvent('JG-senddistress')
+        TriggerServerEvent('JG-senddistress')
     else
         lib.notify({
             title = 'Money Wash',
