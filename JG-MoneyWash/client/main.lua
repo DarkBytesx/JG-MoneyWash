@@ -10,7 +10,10 @@ RegisterNetEvent('JG-startproccess', function (percetageinput,originalinput,time
         useWhileDead = false,
         canCancel = true,
         disable = {
-            car = true,
+                car = true,
+                combat = true,
+                move = true,
+                mouse = false
         },
     }) then
         TriggerServerEvent('JG-washmoney', percetageinput, originalinput)
