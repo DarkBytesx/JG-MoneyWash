@@ -6,8 +6,8 @@ Config.PoliceJob = {
     admin = true,
     sheriff = true,
 }
-Config.laundrycarditemname = 'bread'
-Config.DiscordWebhook = 'https://discord.com/api/webhooks/1312637928941555855/p-MsKwmrC1PVuxj2rXFv4cI9L0kDAUXIfVkEfnoaLhAe7oicNJYzozH25YJ9bzuxBzj-'
+Config.laundrycarditemname = 'washcard' -- make your own item on ox_inventory / data / items.lua
+Config.DiscordWebhook = '' -- own webhook for discord logs (you can check its whole script its open source)
 Config.zones = {
     [0] = {
         coords = vec3(86.0986, 811.4764, 211.1209),
